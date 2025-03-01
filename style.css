@@ -178,3 +178,13 @@ footer {
         padding: 8px 16px;
     }
 }
+.profile-img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; 
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image fits well */
+    border: 3px solid #fff; /* Optional: Adds a white border */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a soft shadow */
+    display: block;
+    margin: 0 auto 20px; /* Centers the image */
+}
